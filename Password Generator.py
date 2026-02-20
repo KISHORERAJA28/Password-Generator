@@ -16,9 +16,7 @@ def create_secure_password(length=16):
     ]
 
     password += [secrets.choice(all_chars) for _ in range(length - 4)]
-
     secrets.SystemRandom().shuffle(password)
-    
     return ''.join(password)
 
 print(f"Your secure password: {create_secure_password(16)}")
