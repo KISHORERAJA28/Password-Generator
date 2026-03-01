@@ -19,5 +19,4 @@ def create_secure_password(length=16):
     secrets.SystemRandom().shuffle(password)
     return ''.join(password)
 
-print(f"Your secure password: {create_secure_password(16)}")
-
+print(f"Your secure password: {create_secure_password(16)}"):
