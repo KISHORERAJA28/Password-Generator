@@ -1,7 +1,7 @@
 import string
 import secrets
 
-2345678
+234567
 def create_secure_password(length=16):
     lower = string.ascii_lowercase
     upper = string.ascii_uppercase
