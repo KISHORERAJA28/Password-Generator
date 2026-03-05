@@ -1,4 +1,3 @@
-a
 
 import string
 import secrets
