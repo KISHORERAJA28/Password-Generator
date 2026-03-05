@@ -1,4 +1,4 @@
-as
+a
 
 import string
 import secrets
