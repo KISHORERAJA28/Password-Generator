@@ -1,4 +1,4 @@
-12
+1
 
 import string
 import secrets
