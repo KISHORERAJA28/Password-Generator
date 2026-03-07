@@ -1,4 +1,4 @@
-12345678
+1234567
 
 import string
 import secrets
